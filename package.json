@@ -1,6 +1,6 @@
 {
   "name": "cook",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "System Dependency Manager",
   "main": "index.js",
   "directories": {
@@ -10,15 +10,15 @@
     "test": "mocha",
     "performance": "node performance"
   },
-  "keywords": [ ],
+  "keywords": [],
   "author": "meschbach",
   "license": "MIT",
   "dependencies": {
     "debug": "^2.1.0"
   },
   "devDependencies": {
-    "mocha" : "3.4.2",
-    "selfsigned" : "1.10.1"
+    "mocha": "3.4.2",
+    "selfsigned": "1.10.1"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,7 @@
     "url": "https://github.com/meschbach/cook/issues"
   },
   "homepage": "https://github.com/meschbach/cook",
-  "engines" : { "node" : ">=6.0.0" }
+  "engines": {
+    "node": ">=7.6.0"
+  }
 }

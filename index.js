@@ -6,7 +6,6 @@ function env_factory( name ){
 	}
 }
 
-
 class Registry {
 	constructor() {
 		this.recipes = {}
@@ -57,6 +56,8 @@ class NestedRegistry {
 
 exports.Registry = Registry
 exports.NestedRegistry = NestedRegistry
+
+exports.recipe_env = env_factory
 
 exports.memoize = function memoize( work ) {
 	var needsResult = true
