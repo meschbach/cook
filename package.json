@@ -11,7 +11,11 @@
     "performance": "node performance"
   },
   "keywords": [],
-  "author": "meschbach",
+  "author": {
+		"name" : "Mark Eschbach",
+		"email" : "mark@eschbachgroup.com",
+		"url" : "https://meschbach.com"
+	},
   "license": "MIT",
   "dependencies": {
     "debug": "^2.1.0"
@@ -22,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meschbach/cook.git"
+    "url": "https://github.com/meschbach/cuisinier.git"
   },
   "bugs": {
-    "url": "https://github.com/meschbach/cook/issues"
+    "url": "https://github.com/meschbach/cuisinier/issues"
   },
-  "homepage": "https://github.com/meschbach/cook",
+  "homepage": "https://github.com/meschbach/cuisinier",
   "engines": {
     "node": ">=7.6.0"
   }
